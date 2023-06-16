@@ -13,21 +13,21 @@ Insertion Sort, dizideki verileri küçükten büyüğe doğru sıralamak için 
 
 1- İlk aşamada hiçbir işlem yapmıyoruz sadece dizideki ilk elemanımız olan 22'yi sıraya almış oluyoruz.
 
-[22,27,16,2,18,6]
+**[22, 27, 16, 2, 18, 6]**
 
 2- Bu aşamada 27 sayısını hemen solunda bulunan 22 sayısı ile karşılaştırıyoruz. 22 sayısı 27 sayısından küçük olduğu için aynı şekilde kalıyorlar. 
 
-[22,27,16,2,18,6]
+**[22, 27, 16, 2, 18, 6]**
 
 3- Daha sonra 27 sayısı ile hemen solunda bulunan 16 sayısını karşılaştırıyoruz. 16 sayısı 27 sayısından küçük olduğu için bu iki sayıyı yer değiştiriyoruz. Yani 27 sayısının yerine 16 sayısını, 16 sayısının yerine de 27 sayısını yazıyoruz ve dizimiz aşağıdaki şekli almış oluyor.
 
-Önce = [22,27,16,2,18,6]
-Sonra = [22,16,27,2,18,6]
+***Önce =*** **[22, 27, 16, 2, 18, 6]**
+***Sonra =*** **[22, 16, 27, 2, 18, 6]**
 
  * Dizimiz bu şekli aldıktan sonra 16 sayısı ile hemen solunda bulunan 22 sayısını karşılaştırıyoruz. 16 sayısının 22 sayısından daha küçük olduğu sonucuna vardığımız için 16 sayısı ile 22 sayısını yer değiştiriyoruz. Bu işlemi gerçekleştirdikten sonra dizimiz aşağıdaki şekli almış oluyor. 
 
-Önce = [22,16,27,2,18,6]
-Sonra = [16,22,27,2,18,6]
+***Önce =*** **[22, 16, 27, 2, 18, 6]**
+***Sonra =*** **[16, 22, 27, 2, 18, 6]**
 
 * 16 sayısının sol tarafında karşılaştırılacak başka sayı kalmadığından dolayı 4. aşamaya geçiyoruz.
 
@@ -35,18 +35,18 @@ Sonra = [16,22,27,2,18,6]
 
 * 2 sayısı 27 sayısından küçük olduğu için 2 sayısı ile 27 sayısını yer değiştiriyoruz. 
 
-Önce = [16,22,27,2,18,6]
-Sonra = [16,22,2,27,18,6]
+***Önce =*** **[16, 22, 27, 2, 18, 6]**
+***Sonra =*** **[16, 22, 2, 27, 18, 6]**
 
 * 2 sayısını solunda bulunan 22 sayısı ile karşılaştırdığımızda 2 sayısı 22 sayısından küçük olduğundan dolayı 2 sayısı ile 22 sayısını yer değiştiriyoruz.
 
-Önce = [16,22,2,27,18,6]
-Sonra = [16,2,22,27,18,6]
+***Önce =*** **[16, 22, 2, 27, 18, 6]**
+***Sonra =*** **[16, 2, 22, 27, 18, 6]**
 
 * 2 sayısını solunda bulunan 16 sayısı ile karşılaştırdığımızda 2 sayısı 16 sayısından küçük olduğundan dolayı 2 sayısı ile 16 sayısını yer değiştiriyoruz.
 
-Önce = [16,2,22,27,18,6]
-Sonra = [2,16,22,27,18,6]
+***Önce =*** **[16, 2, 22, 27, 18, 6]**
+***Sonra =*** **[2, 16, 22, 27, 18, 6]**
 
 * 2 sayısının solunda karşılaştırılacak başka bir sayı kalmadığından dolayı 4. aşamamız burada sona eriyor. 5. aşamaya geçiyoruz.
 
