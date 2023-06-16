@@ -5,7 +5,9 @@ Patika.dev'de Veri Yapıları ve Algoritmalar Dersinde Geliştirmemiz İstenen P
 
 
 *1-* Insertion (Selection) Sort Projesi
+
 *2-* Merge Sort Projesi
+
 *3-* Binary Search Tree Projesi
 
 
