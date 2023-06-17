@@ -130,7 +130,7 @@ Big-O gösterimini yazınız.
 
 Insertion Sort algoritmasında en kötü durum (worst case) i düşünürsek, tüm eleman sayımıza **n** dediğimizde, ilk yaptığımız aşamada n'den başlayarak birer birer azalma olacak ve **n + (n-1) + (n-2)..** şeklinde işlem devam edeceği için hesaplama da **n.(n+1)/2** formülüyle gerçekleştirilecektir. 
 
-Formülü uygulamamız sonucunda elde ettiğiniz **n * (n+1)/2** değerinin Big O Notation'ı da **O(n2)** olacaktır.
+Formülü uygulamamız sonucunda elde ettiğiniz **n * (n+1)/2** değerinin Big O Notation'ı da **O(n<sup>2</sup>)** olacaktır.
 
 ---------------------------------------------------------------------------------------------------------------
 
