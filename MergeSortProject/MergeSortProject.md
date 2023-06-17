@@ -39,7 +39,7 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 Elemanların tek kaldığını görüyoruz ve burada bölme aşamasını bitirip, birleştirme aşamasına geçiyoruz.
 
-
+--------------------------
 
 ##### Birleştirme Aşaması
 
