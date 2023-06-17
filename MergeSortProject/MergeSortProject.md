@@ -13,6 +13,7 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 #### Aşamalar
 
+
 ##### Bölme Aşaması
 
 1- İlk olarak diziyi iki grup olacak şekilde bölüyoruz.

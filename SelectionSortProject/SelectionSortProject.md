@@ -30,9 +30,9 @@ Yukarıda verilen dizinin insertion sort türüne göre aşamalarını yazınız
 
  * Dizimiz bu şekli aldıktan sonra 16 sayısı ile hemen solunda bulunan 22 sayısını karşılaştırıyoruz. 16 sayısının 22 sayısından daha küçük olduğu sonucuna vardığımız için 16 sayısı ile 22 sayısını yer değiştiriyoruz. Bu işlemi gerçekleştirdikten sonra dizimiz aşağıdaki şekli almış oluyor. 
 
-***Önce =*** **[22, 16, 27, 2, 18, 6]**
+  ***Önce =*** **[22, 16, 27, 2, 18, 6]**
 
-***Sonra =*** **[16, 22, 27, 2, 18, 6]**
+  ***Sonra =*** **[16, 22, 27, 2, 18, 6]**
 
 
 * 16 sayısının sol tarafında karşılaştırılacak başka sayı kalmadığından dolayı 4. aşamaya geçiyoruz.
@@ -43,23 +43,23 @@ Yukarıda verilen dizinin insertion sort türüne göre aşamalarını yazınız
 
 * 2 sayısı 27 sayısından küçük olduğu için 2 sayısı ile 27 sayısını yer değiştiriyoruz. 
 
-***Önce =*** **[16, 22, 27, 2, 18, 6]**
+  ***Önce =*** **[16, 22, 27, 2, 18, 6]**
 
-***Sonra =*** **[16, 22, 2, 27, 18, 6]**
+  ***Sonra =*** **[16, 22, 2, 27, 18, 6]**
 
 
 * 2 sayısını solunda bulunan 22 sayısı ile karşılaştırdığımızda 2 sayısı 22 sayısından küçük olduğundan dolayı 2 sayısı ile 22 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[16, 22, 2, 27, 18, 6]**
+  ***Önce =*** **[16, 22, 2, 27, 18, 6]**
 
-***Sonra =*** **[16, 2, 22, 27, 18, 6]**
+  ***Sonra =*** **[16, 2, 22, 27, 18, 6]**
 
 
 * 2 sayısını solunda bulunan 16 sayısı ile karşılaştırdığımızda 2 sayısı 16 sayısından küçük olduğundan dolayı 2 sayısı ile 16 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[16, 2, 22, 27, 18, 6]**
+  ***Önce =*** **[16, 2, 22, 27, 18, 6]**
 
-***Sonra =*** **[2, 16, 22, 27, 18, 6]**
+  ***Sonra =*** **[2, 16, 22, 27, 18, 6]**
 
 
 * 2 sayısının solunda karşılaştırılacak başka bir sayı kalmadığından dolayı 4. aşamamız burada sona eriyor. 5. aşamaya geçiyoruz.
@@ -70,16 +70,16 @@ Yukarıda verilen dizinin insertion sort türüne göre aşamalarını yazınız
 
 * 18 sayısı hemen solunda bulunan 27 sayısından küçük olduğu için 18 sayısı ile 27 sayısını yer değiştiriyoruz. 
 
-***Önce =*** **[2, 16, 22, 27, 18, 6]**
+  ***Önce =*** **[2, 16, 22, 27, 18, 6]**
 
-***Sonra =*** **[2, 16, 22, 18, 27, 6]**
+  ***Sonra =*** **[2, 16, 22, 18, 27, 6]**
 
 
 * 18 sayısı hemen solunda bulunan 22 sayısından küçük olduğu için 18 sayısı ile 22 sayısını yer değiştiriyoruz. 
 
-***Önce =*** **[2, 16, 22, 18, 27, 6]**
+  ***Önce =*** **[2, 16, 22, 18, 27, 6]**
 
-***Sonra =*** **[2, 16, 18, 22, 27, 6]**
+  ***Sonra =*** **[2, 16, 18, 22, 27, 6]**
 
 
 * 18 sayısı hemen solunda bulunan 16 sayısından büyük olduğu için dizimiz bu şekilde kalıyor ve 6. aşamaya geçiyoruz. 
@@ -90,35 +90,35 @@ Yukarıda verilen dizinin insertion sort türüne göre aşamalarını yazınız
 
 * 6 sayısı hemen solunda bulunan 27 sayısından küçük olduğu için 6 sayısı ile 27 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[2, 16, 18, 22, 27, 6]**
+  ***Önce =*** **[2, 16, 18, 22, 27, 6]**
 
-***Sonra =*** **[2, 16, 18, 22, 6, 27]**
+  ***Sonra =*** **[2, 16, 18, 22, 6, 27]**
 
 
 * 6 sayısı hemen solunda bulunan 22 sayısından küçük olduğu için 6 sayısı ile 22 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[2, 16, 18, 22, 6, 27]**
+  ***Önce =*** **[2, 16, 18, 22, 6, 27]**
 
-***Sonra =*** **[2, 16, 18, 6, 22, 27]**
+  ***Sonra =*** **[2, 16, 18, 6, 22, 27]**
 
 
 * 6 sayısı hemen solunda bulunan 18 sayısından küçük olduğu için 6 sayısı ile 18 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[2, 16, 18, 6, 22, 27]**
+  ***Önce =*** **[2, 16, 18, 6, 22, 27]**
 
-***Sonra =*** **[2, 16, 6, 18, 22, 27]**
+  ***Sonra =*** **[2, 16, 6, 18, 22, 27]**
 
 
 * 6 sayısı hemen solunda bulunan 16 sayısından küçük olduğu için 6 sayısı ile 16 sayısını yer değiştiriyoruz.
 
-***Önce =*** **[2, 16, 6, 18, 22, 27]**
+  ***Önce =*** **[2, 16, 6, 18, 22, 27]**
 
-***Sonra =*** **[2, 6, 16, 18, 22, 27]**
+  ***Sonra =*** **[2, 6, 16, 18, 22, 27]**
 
 
 * 6 sayısı hemen solunda bulunan 2 sayısından büyük olduğu için aynı şekilde kalıyorlar. Böylelikle insertion (selection) algoritmamız ile elemanlarımızı küçükten büyüğe doğru sıralama işlemini tamamlamış oluyoruz.
 
-***Son =*** **[2, 6, 16, 18, 22, 27]**
+  ***Son =*** **[2, 6, 16, 18, 22, 27]**
 
 ---------------------------------------------------------------------------------------------------------------
 
